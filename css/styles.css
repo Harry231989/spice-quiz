@@ -1,3 +1,254 @@
 *{
-    color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#BEBEBE;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+    
+}
+
+main{
+    padding-top: 6rem;
+}
+
+section{
+    background:#F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    border-radius: 8px;
+    margin: 1rem;
+    
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+.book_page{
+    display: flex;
+    justify-content: end;
+    color: gold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.para {
+    margin: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: 0.5rem;
+    margin: 10px auto;
+    font-size: 22px;
+    border-radius: 3px;
+    width: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+    box-shadow: 10px 5px 5px steelblue;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.taps{
+    background: white;
+    padding: 8px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+    box-shadow: 10px 10px 10px steelblue;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background:  #454545;
+    width: 100%;
+    padding: 15px;
+    font-size: 4rem;
+    color: #FFDF00;
+}
+
+.new_1{
+    color: white;
+}
+
+.new_2{
+    color: gold;
+}
+
+.new_3{
+    color: black;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.icon_profile{
+    font-size: 4rem;
+    padding: 25px;
+    margin-right: 42px;
+}
+
+.profile h2{
+    color: #FFDF00;
+}
+
+.last_part h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.last_part p{
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.second_part{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.new_5{
+    font-size: 25px;
+    padding: 15px;
+    background: transparent;
+    color: gold;
+}
+
+.profile_span{
+    margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+
+
+.head{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    background: #0f172a;
+    color: white;
+}
+
+.blogs-center{
+    padding: 2rem;
+    background: white;
+    color: black;
+    border: 2px solid crimson;
+    margin: 0.5rem;
+    position: relative;
+    border-radius: 12px;
+
+}
+
+span{
+    display: flex;
+    justify-content: end;
+}
+
+.text{
+    padding: 1rem;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  width: 8rem;
+  text-decoration: none;
+  background: transparent;
+  color: black;
+  font-size: 16px;
+   
+} */
