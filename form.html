@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <form data-js="form">
+        <!-- Question  -->
+        <img
+          class="question-card__icon"
+          src="./assets/bookmark.png"
+          alt="bookmark"
+        />
+
+        <label for="first">Your Questions:</label>
+        <textarea required
+          maxlength="200"
+          data-js="personalMessage"
+          name="first"
+          class="textArea"
+          id="first"
+          cols="40"
+          rows="10"
+        ></textarea>
+         <small class="form__character-count"
+        >(<span data-js="amountLeft"></span> characters left)</small
+      >
+
+        <!-- Answer -->
+        <label for="second">Your Answer:</label>
+          <textarea required
+          maxlength="200"
+          data-js="personalMessage"
+          name="first"
+          class="textArea"
+          id="first"
+          cols="40"
+          rows="5"
+        ></textarea>
+         <small class="form__character-count"
+        >(<span data-js="amountLeft"></span> characters left)</small
+      
+      >
+        <!-- <textarea 
+        required name="second" 
+        maxlength="200"
+        data-js="personalMessage_2"
+        id="second" 
+        class="textArea" 
+        cols="40" rows="5"></textarea>
+          <small class="form__character-count"
+        >(<span data-js="amountLeft"></span> characters left)</small
+      > -->
+
+        <!-- Tags -->
+        <label for="tags">Tags:</label>
+        <input required type="text" class="tags" id="tags" name="tags" />
+        <button type="submit" class="form_btn">Submit</button>
+      </form>
+      <ul class="" data-js="todoList"></ul>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="index.html" class="footer__link">
+        <img
+          class="footer__icon footer__icon--filled"
+          src="./assets/home_filled.png"
+          alt="home filled"
+        />
+      </a>
+      <a href="bookmark.html" class="footer__link">
+        <img class="footer__icon" src="./assets/bookmark.png" alt="bookmark" />
+      </a>
+      <a href="form.html" class="footer__link footer__link--active">
+        <img class="footer__icon" src="./assets/form3png.png" alt="bookmark" />
+      </a>
+      <a href="profile.html" class="footer__link">
+        <img class="footer__icon" src="./assets/profile.png" alt="profile" />
+      </a>
+    </footer>
+  </body>
+</html>

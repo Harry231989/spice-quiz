@@ -1,84 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spice Quiz</title>
-     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-   <header>
-     <h1>quizApp</h1>
-   </header>
-   <!-- section body --> 
-
-   <main>
-    <section class="first">
-        <i class='fas fa-sun top'></i>
-        <div class="container">
-          <p class="para">Greatest Player Ever!</p>
-          <button class="btn">Answer</button>
-          <br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <section class="question-card">
+        <img
+          class="question-card__icon"
+          src="./assets/bookmark.png"
+          alt="bookmark"
+        />
+     
+        <h2 class="question-card__title">
+          Who is the greatest Footballer?
+        </h2>
+        <button  class="question-card__button">show answer</button>
+        
+        <p  class="question-card__answer " style="display: none;">Cristiano <span class="new_span">Ronaldo</span> </p>
+        
+        <div class="question-card__tags">
+          <div class="question-card__tag">#html</div>
+          <div class="question-card__tag">#css</div>
+          <div class="question-card__tag">#flexbox</div>
         </div>
-        <div class="button">
-         <a href="#" class="taps">tips</a>
-         <a href="#" class="taps">country</a>
-         <a href="#" class="taps">picture</a>
-       </div>
-    </section>
-    <section class="first">
-        <i class='fas fa-sun top'></i>
-        <div class="container">
-          <p class="para">Greatest Player Ever!</p>
-          <button class="btn">Answer</button>
-          <br>
+      </section>
+      <!-- <section class="question-card__2">
+        <img
+          class="question-card__icon question-card__icon--active"
+          src="./assets/bookmark_filled.png"
+          alt="bookmark filled"
+        />
+        <h2 class="question-card__title">Why is accessibility important?</h2>
+        <button class="question-card__button">show answer</button>
+        <p class="question-card__answer"></p>
+        <div class="question-card__tags">
+          <div class="question-card__tag">#html</div>
+          <div class="question-card__tag">#accessibility</div>
         </div>
-        <div class="button">
-         <a href="#" class="taps">tips</a>
-         <a href="#" class="taps">country</a>
-         <a href="#" class="taps">picture</a>
-       </div>
-    </section>
-    <section class="first">
-        <i class='fas fa-sun book_page'></i>
-        <div class="container">
-          <p class="para">Greatest Player Ever!</p>
-          <button class="btn">Answer</button>
-          <br>
+      </section> -->
+      <!-- <section class="question-card">
+        <img
+          class="question-card__icon"
+          src="./assets/bookmark.png"
+          alt="bookmark"
+        />
+        <h2 class="question-card__title">
+          What are the different position property values?
+        </h2>
+        <button class="question-card__button">show answer</button>
+        <p class="question-card__answer"></p>
+        <div class="question-card__tags">
+          <div class="question-card__tag">#html</div>
+          <div class="question-card__tag">#css</div>
+          <div class="question-card__tag">#position</div>
         </div>
-        <div class="button">
-         <a href="#" class="taps">tips</a>
-         <a href="#" class="taps">country</a>
-         <a href="#" class="taps">picture</a>
-       </div>
-    </section>
-    <section class="first">
-        <i class='fas fa-sun top'></i>
-        <div class="container">
-          <p class="para">Greatest Player Ever!</p>
-          <button class="btn">Answer</button>
-          <br>
-        </div>
-        <div class="button">
-         <a href="#" class="taps">tips</a>
-         <a href="#" class="taps">country</a>
-         <a href="#" class="taps">picture</a>
-       </div>
-    </section>
-
-<!-- footer -->
-<footer>
- <a href="index.html"> <i class="fas fa-futbol new_1"></i></a>
- <a href="bookmarks.html"> <i class='fas fa-sun new_3'></i></a>
- <a href="profile.html"><i class="far fa-eye new_3"></i></a>
-</footer>
-
-   </main>
-</body>
+      </section> -->
+    </main>
+    <footer class="footer">
+      <a href="index.html" class="footer__link footer__link--active">
+        <img
+          class="footer__icon footer__icon--filled"
+          src="./assets/home_filled.png"
+          alt="home filled"
+        />
+      </a>
+      <a href="bookmark.html" class="footer__link">
+        <img
+          class="footer__icon"
+          src="./assets/bookmark_transparent.png"
+          alt="bookmark"
+        />
+      </a>
+      <a href="form.html" class="footer__link">
+        <img
+          class="footer__icon"
+          src="./assets/form3png.png"
+          alt="bookmark"
+        />
+      </a>
+      <a href="profile.html" class="footer__link">
+        <img class="footer__icon" src="./assets/profile.png" alt="profile" />
+      </a>
+    </footer>
+  </body>
 </html>
